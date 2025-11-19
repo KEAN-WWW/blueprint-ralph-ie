@@ -20,4 +20,4 @@ def test_about_page_content(client):
     """Tests thatthe about page loads and has Blueprint"""
     response = client.get("/about")
     assert response.status_code == 200
-    assert b'Blueprint' in response.datab'Blueprint' in response.data
+    assert b'Blueprint' in response.data
