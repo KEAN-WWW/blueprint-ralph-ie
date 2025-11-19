@@ -1,12 +1,10 @@
 from flask import Flask
-from application.bp.homepage.routes import homepage
+from application.bp.homepage.routes import homepage  # ← NEW
 
-def init_app():
-    app = Flask(__name__)
-    app.register_blueprint(homepage)
-    return app
+app = Flask(__name__)
 
-app = init_app()
+app.register_blueprint(homepage)         # ← NEW
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
+# your existing routes...
