@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6acbf6-f869-4336-ae07-9f02b879caea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/bp/homepage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/bp/homepage/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/bp/homepage/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/bp/homepage/templates/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_blueprint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_blueprint_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
