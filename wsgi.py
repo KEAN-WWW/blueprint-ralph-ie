@@ -1,6 +1,4 @@
-from application.app import Flask
-from application.bp.homepage.routes import homepage
+from application import app  # import the app defined in __init__.py
 
-app = Flask(__name__)
-
-app.register_blueprint(homepage)
+if __name__ == "__main__":
+    app.run(debug=True)
