@@ -1,10 +1,10 @@
 from flask import Flask
+from application.bp.homepage.routes import homepage  # ← NEW
 
-def create_app():
-    app = Flask(__name__)
+app = Flask(__name__)
 
-    # Import the blueprint from application.bp
-    from application.bp import bp
-    app.register_blueprint(bp)
+app.register_blueprint(homepage)         # ← NEW
 
-    return app
+if __name__ == '__main__':
+    app.run(debug=True)
+# your existing routes...

@@ -38,4 +38,3 @@ jobs:
         BP-CONTENT_RESULTS: "${{steps.bp-content.outputs.result}}"
       with:
         runners: bp,bp-content
-
