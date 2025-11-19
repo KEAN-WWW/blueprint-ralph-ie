@@ -38,7 +38,4 @@ jobs:
         BP-CONTENT_RESULTS: "${{steps.bp-content.outputs.result}}"
       with:
         runners: bp,bp-content
-git add .
-git commit -m "Recreated project with working Blueprint structure"
-git push origin main
 
