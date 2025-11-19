@@ -1,8 +1,10 @@
 from flask import Flask
-from application.bp import bp   # THIS NOW WORKS
 
-app = Flask(__name__)
-app.register_blueprint(bp)
+def create_app():
+    app = Flask(__name__)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+    # Import the blueprint from application.bp
+    from application.bp import bp
+    app.register_blueprint(bp)
+
+    return app
